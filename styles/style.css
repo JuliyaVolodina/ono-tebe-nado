@@ -3,20 +3,19 @@ body {
 }
 
 .header {
-    margin: 92px auto 92px;
-    width: 95%;
     font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 136px 1fr;
+    margin: 92px 48px;
 }
 
 .header__menu {
-    display: grid;
-    grid-template-columns: 1fr 136px 1fr;
-    margin: 0 25px 0 27px;
+    display: flex;
 }
 
 .header__links-list {
     display: flex;
-    gap: 30px;
+    gap: 32px;
     list-style-type: circle;
 }
 
@@ -27,7 +26,7 @@ body {
 
 .header__links-list-item .header__link {
     display: list-item;
-    text-underline-offset: 4px;
+    text-underline-offset: 3px;
     letter-spacing: 0.01em;
 }
 
@@ -42,26 +41,16 @@ body {
 }
 
 .block_header_address {
-    margin: 5px 0 2px 194px;
+    margin: 7px 0 7px 194px;
 }
 
 .address {
-    display: flex;
-    flex-direction: column;
     font-style: normal;
+    line-height: 24.3px;
 }
 
-.telephone {
+.address_linkc {
     text-underline-offset: 5px;
-}
-
-.email {
-    text-underline-offset: 5px;
-    padding-top: 3px;
-}
-
-.item_address {
-    padding-top: 6px;
 }
 
 .cover {
@@ -154,6 +143,7 @@ body {
     margin: 0 24px;
     color: rgba(255, 255, 255, 1);
     list-style: none;
+    row-gap: 20px;
 }
 
 .lots__card-list-item {
