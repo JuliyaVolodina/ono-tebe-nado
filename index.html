@@ -10,6 +10,29 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
+    <form action="submit" class="main">
+      <h2 class="question">Когда легче концентрироваться?</h2>
+      <fieldset class="concetration">
+        <div>
+        <input type="radio" name="concetration"
+          id="morn" value="morn" />
+          <label for="morn">Утром</label>
+        </div>
+        <div>
+        <input type="radio" name="concetration" id="day" value="day"/>
+          <label for="day">Днём</label>
+        </div>
+        <div>
+        <input type="radio" name="concetration" id="evn" value="evn"/>
+          <label for="evn">Вечером</label>
+        </div>
+        <div>
+        <input type="radio" name="concetration" id="night" value="night"/>
+          <label for="night">Ночью</label>
+        </div>
+      </fieldset>
+      <button type="submit">Поделиться</button>
+    </form>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list"> 

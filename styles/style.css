@@ -131,7 +131,7 @@ body {
 
 .lots__heading {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 700px;
     text-transform: uppercase;
     margin: 20px 0 26px 66px;
 }
@@ -285,4 +285,3 @@ body {
     height: 100%;
     display: block;
 }
-
